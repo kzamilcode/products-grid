@@ -4,13 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home</title>
+ 
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.27.0/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
       <!-- Alpine Js -->
-      <script defer src="https://unpkg.com/alpinejs@3.2.4/dist/cdn.min.js"></script>
+      <!-- <script defer src="https://unpkg.com/alpinejs@3.2.4/dist/cdn.min.js"></script> -->
   <!--slick-slider-->
 <!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> -->
 <!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+<!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> -->
 				
     <!------
    FONT-AWASOME-LINK
@@ -240,17 +244,17 @@
     <div class="grid lg:grid-cols-3 grid-cols-1 gap-y-20 md:gap-y-28 gap-x-10">
     <!--item-->
    <div class="container">
-      <div class="nav 2xl:h-[50vh] md:h-[62vh] h-[28vh]">
-        <img class="w-full" src="./img/another-trending-products/Rectangle 18.png" alt="">
+      <div class="nav bg-white relative w-full flex justify-center items-center  2xl:h-[50vh] md:h-[62vh] h-[28vh]">
+        <img class="w-full absolute" src="./img/another-trending-products/Rectangle 18.png" alt="">
 
-        <span class="img-1 w-3 h-3 2xl:w-5 2xl:h-5 top-[255px] md:top-[332px] 2xl:top-[450px] bg-[#2E2E2E] active" onclick="changeColor(event)"></span>
-        <i class="img-1 "></i>
+        <span class="img-1 mx-2 rounded-[50%] cursor-pointer z-10 relative w-3 h-3 2xl:w-5 2xl:h-5 top-[255px] md:top-[332px] 2xl:top-[450px] bg-[#2E2E2E] active" onclick="changeColor(event)"></span>
+        <i class="img-1 bg-[#2E2E2E]"></i>
   
-        <span class="img-2 w-3 h-3 2xl:w-5 2xl:h-5 top-[255px] md:top-[332px] 2xl:top-[450px]" onclick="changeColor(event)"></span>
-        <i class="img-2 "></i>
+        <span class="img-2 mx-2 rounded-[50%] relative cursor-pointer z-10 w-3 h-3 2xl:w-5 2xl:h-5 top-[255px] md:top-[332px] 2xl:top-[450px] bg-[#E0C35A]" onclick="changeColor(event)"></span>
+        <i class="img-2 bg-[#E0C35A]"></i>
   
-        <span class="img-3 w-3 h-3 2xl:w-5 2xl:h-5 top-[255px] md:top-[332px] 2xl:top-[450px]" onclick="changeColor(event)"></span>
-        <i class="img-3 "></i>
+        <span class="img-3 mx-2 cursor-pointer z-10 rounded-[50%] relative w-3 h-3 2xl:w-5 2xl:h-5 top-[255px] md:top-[332px] 2xl:top-[450px] bg-[#ECECEC]" onclick="changeColor(event)"></span>
+        <i class="img-3 bg-[#ECECEC]"></i>
   
         
       </div>
@@ -264,17 +268,17 @@
 
      <!--item-->
      <div class="container">
-      <div class="nav 2xl:h-[50vh] md:h-[62vh] h-[28vh]">
-        <img class="w-full" src="./img/another-trending-products/Rectangle 21.png" alt="">
+      <div class="nav bg-white relative w-full flex justify-center items-center 2xl:h-[50vh] md:h-[62vh] h-[28vh]">
+        <img class="w-full absolute" src="./img/another-trending-products/Rectangle 21.png" alt="">
 
-        <span class="img-one w-3 h-3 2xl:w-5 2xl:h-5 top-[255px] md:top-[332px] 2xl:top-[450px] activeTwo" onclick="changeColor(event)"></span>
-        <i class="img-one"></i>
+        <span class="img-one rounded-[50%]  cursor-pointer z-10 mx-2 relative w-3 h-3 2xl:w-5 2xl:h-5 top-[255px] md:top-[332px] 2xl:top-[450px] activeTwo bg-[#2E2E2E]" onclick="changeColor(event)"></span>
+        <i class="img-one bg-[#2E2E2E]"></i>
   
-        <span class="img-two w-3 h-3 2xl:w-5 2xl:h-5 top-[255px] md:top-[332px] 2xl:top-[450px]" onclick="changeColor(event)"></span>
-        <i class="img-two"></i>
+        <span class="img-two rounded-[50%] cursor-pointer z-10 mx-2 relative w-3 h-3 2xl:w-5 2xl:h-5 top-[255px] md:top-[332px] 2xl:top-[450px] bg-[#D68DBD]" onclick="changeColor(event)"></span>
+        <i class="img-two bg-[#D68DBD]"></i>
   
-        <span class="img-three w-3 h-3 2xl:w-5 2xl:h-5 top-[255px] md:top-[332px] 2xl:top-[450px]" onclick="changeColor(event)"></span>
-        <i class="img-three"></i>  
+        <span class="img-three rounded-[50%] cursor-pointer z-10 mx-2 relative w-3 h-3 2xl:w-5 2xl:h-5 top-[255px] md:top-[332px] 2xl:top-[450px] bg-[#DDE1B0]" onclick="changeColor(event)"></span>
+        <i class="img-three bg-[#DDE1B0]"></i>  
       </div>
       <div class="block font-poppins mt-4 2xl:mt-6 font-normal relative w-full text-center text-xl 2xl:text-[25px] ">
         <h4 class="text-xl text-nGray">Black</h4>
@@ -285,17 +289,17 @@
     
      <!--item-->
      <div class="container">
-      <div class="nav 2xl:h-[50vh] md:h-[62vh] h-[28vh]">
-        <img class="w-full" src="./img/another-trending-products/Rectangle 6.png" alt="">
+      <div class="nav bg-white relative w-full flex justify-center items-center 2xl:h-[50vh] md:h-[62vh] h-[28vh]">
+        <img class="w-full absolute" src="./img/another-trending-products/Rectangle 6.png" alt="">
 
-        <span class="img-four w-3 h-3 2xl:w-5 2xl:h-5 top-[255px] md:top-[332px] 2xl:top-[450px] activeTwo " onclick="changeColor(event)"></span>
-        <i class="img-four "></i>
+        <span class="img-four rounded-[50%] cursor-pointer z-10 mx-2 relative w-3 h-3 2xl:w-5 2xl:h-5 top-[255px] md:top-[332px] 2xl:top-[450px] activeTwo bg-[#C84646]" onclick="changeColor(event)"></span>
+        <i class="img-four bg-[#C84646]"></i>
   
-        <span class="img-five w-3 h-3 2xl:w-5 2xl:h-5 top-[255px] md:top-[332px] 2xl:top-[450px]" onclick="changeColor(event)"></span>
-        <i class="img-five"></i>
+        <span class="img-five rounded-[50%] cursor-pointer z-10 mx-2  relative w-3 h-3 2xl:w-5 2xl:h-5 top-[255px] md:top-[332px] 2xl:top-[450px] bg-[#A5BAF2] " onclick="changeColor(event)"></span>
+        <i class="img-five  bg-[#A5BAF2]"></i>
   
-        <span class="img-six w-3 h-3 2xl:w-5 2xl:h-5 top-[255px] md:top-[332px] 2xl:top-[450px]" onclick="changeColor(event)"></span>
-        <i class="img-six"></i>
+        <span class="img-six rounded-[50%] cursor-pointer z-10 relative mx-2 w-3 h-3 2xl:w-5 2xl:h-5 top-[255px] md:top-[332px] 2xl:top-[450px] bg-[#ECECEC]" onclick="changeColor(event)"></span>
+        <i class="img-six  bg-[#ECECEC]"></i>
   
       </div>
       <div class="block font-poppins mt-4 2xl:mt-6 font-normal relative w-full text-center text-xl 2xl:text-[25px]">
@@ -308,12 +312,542 @@
     </div>
     
     </section>
+<!---offer-Products-grid-->
+<section class="2xl:px-40 px-20 2xl:py-48 py-20">
+  <div class="flex-row lg:flex mb-10 lg:mb-0 justify-between">
+    <h1 class="font-semibold text-[40px] text-black xl:mb-14 mb-8">Offer Products</h1>
+    
+  </div>
+ 
+  
+  <!--products-itmes-->
+  <div class="grid lg:grid-cols-3 grid-cols-1  gap-y-20 gap-x-10">
+  <!--item-->
+  <div>
+    <img class="w-full" src="./img/offer-products/Rectangle 22.png" alt="">
+   <!--contant-->
+   <div class="flex-row flex justify-between text-black font-normal text-[25px] mt-8">
+    <div>
+      <h3 class="mb-1">Product Cream</h3>
+      <h4 class="text-xl text-light-gray ">2 sizes available</h4>
+    </div>
+   
+      <h3 class="text-black">$35 </h3>
+    
+</div>
+  </div>
+  
+  <!--item-->
+  <div>
+    <img class="w-full" src="./img/offer-products/Rectangle 23.png" alt="">
+    <!--contant-->
+    <div class="flex-row flex justify-between text-black font-normal text-[25px] mt-8">
+      <div>
+        <h3 class="mb-1">Best Eyeliner</h3>
+        <h4 class="text-xl text-nRed">Sold Out</h4>
+      </div>
+     
+        <h3 class="text-black">$65 </h3>
+      
+  </div>
+  </div>
+  
+  <!--item-->
+  <div>
+    <img class="w-full" src="./img/offer-products/Rectangle 24.png" alt="">
+    <!--contant-->
+    <div class="flex-row flex justify-between text-black font-normal text-[25px] mt-8">
+      <div>
+        <h3 class="mb-1">Reddish Product</h3>
+        <h4 class="text-xl text-light-gray ">Leather color</h4>
+      </div>
+     
+        <h3 class="text-black">$75</h3>
+      
+  </div>
+  </div>
+  
+  
+  <!--item-->
+  <div>
+    <img class="w-full" src="./img/offer-products/Rectangle 25.png" alt="">
+    <!--contant-->
+    <div class="flex-row flex justify-between text-black font-normal text-[25px] mt-8">
+      <div>
+        <h3 class="mb-1">Product Cream</h3>
+        <h4 class="text-xl text-light-gray ">4 sizes available</h4>
+      </div>
+     
+        <h3 class="text-black">$35 </h3>
+      
+  </div>
+  </div>
+  <!--item-->
+  <div>
+    <img class="w-full" src="./img/offer-products/Rectangle 26.png" alt="">
+     <!--contant-->
+     <div class="flex-row flex justify-between text-black font-normal text-[25px] mt-8">
+      <div>
+        <h3 class="mb-1">Best Eyeliner</h3>
+        <h4 class="text-xl text-nRed ">Sold Out</h4>
+      </div>
+     
+        <h3 class="text-black">$65 </h3>
+      
+  </div>
+  </div>
+  <!--item-->
+  <div>
+    <img class="w-full" src="./img/offer-products/Rectangle 27.png" alt="">
+    <!--contant-->
+    <div class="flex-row flex justify-between text-black font-normal text-[25px] mt-8">
+      <div>
+        <h3 class="mb-1">Product Cream</h3>
+        <h4 class="text-xl text-light-gray ">Ladies Shoe</h4>
+      </div>
+     
+        <h3 class="text-black"> $75</h3>
+      
+  </div>
+  </div>
+  </div>
+  
+  </section>
 
-    <h1>antu</h1>
+  <!---Customers-also-brought-grid-->
+<section class="2xl:px-40 px-20 2xl:py-20 py-10">
+  <div class="flex-row lg:flex mb-10 lg:mb-0 justify-between">
+    <h1 class="font-semibold text-[40px] text-black xl:mb-14 mb-8">Customers also brought</h1>
+    
+  </div>
+  
+  <!--products-itmes-->
+  <div class="grid lg:grid-cols-3 grid-cols-1  gap-y-20 gap-x-10">
+  <!--item-->
+  <div class="relative">
+    <img class="w-full" src="./img//Customers-also-brought/Rectangle 28.png" alt="">
+    <p class="absolute text-2xl font-normal left-6 top-6 w-16 h-16 bg-white leading-[65px] text-center rounded-[50%]">$15</p>
+   <!--contant-->
+   <div class=" text-center text-black font-normal text-[25px] mt-8">
+   
+      <h3 class="mb-1">Product Cream</h3>
+      <h4 class="text-xl text-one">Pink</h4>
+   
+    
+</div>
+  </div>
+  
+  <!--item-->
+  <div class="relative">
+    <img class="w-full" src="./img/Customers-also-brought/Rectangle 29.png" alt="">
+    <p class="absolute text-2xl font-normal left-6 top-6 w-16 h-16 bg-white leading-[65px] text-center rounded-[50%]">$45</p>
+    <!--contant-->
+    <div class=" text-center text-black font-normal text-[25px] mt-8">
+   
+      <h3 class="mb-1">Product Cream</h3>
+      <h4 class="text-xl text-two">Yellow</h4>
+   
+    
+</div>
+  </div>
+  
+  <!--item-->
+  <div class="relative">
+    <img class="w-full" src="./img/Customers-also-brought/Rectangle 31.png" alt="">
+    <p class="absolute text-2xl font-normal left-6 top-6 w-16 h-16 bg-white leading-[65px] text-center rounded-[50%]">$35</p>
+    <!--contant-->
+    <div class=" text-center text-black font-normal text-[25px] mt-8">
+   
+      <h3 class="mb-1">Product Cream</h3>
+      <h4 class="text-xl text-three">Red</h4>
+   
+    
+</div>
+  </div>
+  
+  </div>
+  
+  </section>
+
+   <!---Best-selling-products-grid-->
+<section class="2xl:px-40 px-20 2xl:py-40 py-10">
+  <div class="flex-row lg:flex mb-10 lg:mb-0 justify-between">
+    <h1 class="font-semibold text-[40px] text-black xl:mb-14 mb-8">Best selling products</h1>
+    
+  </div>
+  
+  <!--products-itmes-->
+  <div class="grid lg:grid-cols-3 grid-cols-1  gap-y-20 gap-x-10">
+  <!--item-->
+  <div class="">
+    <div class="img-area relative text-right">
+      <img class="w-full block h-auto" src="./img/Best-selling-products/Rectangle 32.png" alt="">
+      <div class="img-text bg-gradient-to-t from-gray-400  absolute bottom-0 left-0 right-0 overflow-hidden w-full h-0 transition-all duration-500">
+        <p class="relative text-white -bottom-28 -left-5">$75</p>
+      </div>
+    </div>
+   
+    
+    <!--contant-->
+    <div class=" text-left text-black font-normal text-[25px] mt-8">
+   
+      <h3 class="mb-1">White bag</h3>
+      <h4 class="text-xl text-full-gray">White and blue</h4>
+      <p class="w-full text-center mt-6 text-black font-medium bg-[#F5F5F5] py-4">Add to bag</p>
+    
+</div>
+  </div>
+  
+  <!--item-->
+  <div class="">
+    <div class="img-area relative text-right">
+      <img class="w-full block h-auto" src="./img/Best-selling-products/Rectangle 33.png" alt="">
+      <div class="img-text bg-gradient-to-t from-gray-400  absolute bottom-0 left-0 right-0 overflow-hidden w-full h-0 transition-all duration-500">
+        <p class="relative text-white -bottom-28 -left-5">$75</p>
+      </div>
+    </div>
+   
+    
+    <!--contant-->
+    <div class=" text-left text-black font-normal text-[25px] mt-8">
+   
+      <h3 class="mb-1">Merun bag</h3>
+      <h4 class="text-xl text-full-gray">White and blue</h4>
+      <p class="w-full text-center mt-6 text-black font-medium bg-[#F5F5F5] py-4">Add to bag</p>
+    
+</div>
+  </div>
+  
+  <!--item-->
+  <div class="">
+    <div class="img-area relative text-right">
+      <img class="w-full block h-auto" src="./img/Best-selling-products/Rectangle 35.png" alt="">
+      <div class="img-text bg-gradient-to-t from-gray-400  absolute bottom-0 left-0 right-0 overflow-hidden w-full h-0 transition-all duration-500">
+        <p class="relative text-white -bottom-28 -left-5">$75</p>
+      </div>
+    </div>
+   
+    
+    <!--contant-->
+    <div class=" text-left text-black font-normal text-[25px] mt-8">
+   
+      <h3 class="mb-1">Product Cream</h3>
+      <h4 class="text-xl text-full-gray">White and blue</h4>
+      <p class="w-full text-center mt-6 text-black font-medium bg-[#F5F5F5] py-4">Add to bag</p>
+      
+    
+</div>
+
+  </div>
+  
+  </div>
+  
+  </section>
+
+     <!---Best-selling-products-grid-->
+<section class="2xl:px-40 px-20 2xl:py-40 py-10">
+  <div class="flex-row lg:flex mb-10 lg:mb-0 justify-between">
+    <h1 class="font-semibold text-[40px] text-black xl:mb-14 mb-8">Customers also brought</h1>
+    
+  </div>
+  
+  <!--products-itmes-->
+  <div class="grid border border-solid border-gray-300 lg:grid-cols-3 grid-cols-1 ">
+  <!--item-->
+  <div class="p-10  border-r border-solid border-gray-300 ">
+    <div class="img-area relative text-right">
+      <img class="w-full block h-auto" src="./img/Customers- brought/image 4.png" alt="">
+      <div class="img-text bg-gradient-to-t from-[#EFF1F0] to-[#EFF1F0] absolute bottom-0 left-0 right-0 overflow-hidden w-full h-0 transition-all duration-500">
+        
+      </div>
+    </div>
+   
+    <!--contant-->
+    <div class=" text-center text-black font-normal text-[25px] mt-8">
+   
+      <h3 class="mb-1 font-semibold">Product Cream</h3>
+       <!--star-->
+      <div class="rating py-2">
+       
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FCCF32]
+        " />
+        
+      </div>
+      <h4 class="text-xl text-full-gray pb-6">10 Reviews</h4>
+      <p class="text-2xl font-normal">$345</p>
+            
+</div>
+  </div>
+  
+  <!--item-->
+  <div class="p-10 border-r border-solid border-gray-300">
+    <div class="img-area relative text-right">
+      <img class="w-full block h-auto" src="./img/Customers- brought/image 5.png" alt="">
+      <div class="img-text bg-gradient-to-t from-[#EFF1F0] to-[#EFF1F0] absolute bottom-0 left-0 right-0 overflow-hidden w-full h-0 transition-all duration-500">
+        
+      </div>
+    </div>
+   
+    
+    <!--contant-->
+    <div class=" text-center text-black font-normal text-[25px] mt-8">
+   
+      <h3 class="mb-1 font-semibold">Yellow Telephone</h3>
+       <!--star-->
+       <div class="rating py-2">
+       
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FCCF32]
+        " />
+        
+      </div>
+      <h4 class="text-xl text-full-gray pb-6">5 Reviews</h4>
+      <p class="text-2xl font-normal">$85</p>
+            
+</div>
+  </div>
+  
+  <!--item-->
+  <div class="p-10  ">
+    <div class="img-area relative text-right">
+      <img class="w-full block h-auto" src="./img/Customers- brought/image 6.png" alt="">
+      <div class="img-text bg-gradient-to-t from-[#EFF1F0] to-[#EFF1F0] absolute bottom-0 left-0 right-0 overflow-hidden w-full h-0 transition-all duration-500">
+        
+      </div>
+    </div>
+   
+    
+    <!--contant-->
+    <div class=" text-center text-black font-normal text-[25px] mt-8">
+   
+      <h3 class="mb-1 font-semibold">Kids Toy</h3>
+       <!--star-->
+       <div class="rating py-2">
+       
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FCCF32]
+        " />
+        
+      </div>
+      <h4 class="text-xl text-full-gray pb-6">45 Reviews</h4>
+      <p class="text-2xl font-normal">$345</p>
+            
+</div>
+
+  </div>
+   <!--item-->
+  <div class="p-10 border-t  border-r border-solid border-gray-300">
+    <div class="img-area relative text-right">
+      <img class="w-full block h-auto" src="./img/Customers- brought/image 6.png" alt="">
+      <div class="img-text bg-gradient-to-t from-[#EFF1F0] to-[#EFF1F0] absolute bottom-0 left-0 right-0 overflow-hidden w-full h-0 transition-all duration-500">
+        
+      </div>
+    </div>
+   
+    
+    <!--contant-->
+    <div class=" text-center text-black font-normal text-[25px] mt-8">
+   
+      <h3 class="mb-1 font-semibold">Shray Bottle</h3>
+       <!--star-->
+       <div class="rating py-2">
+       
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FCCF32]
+        " />
+        
+      </div>
+      <h4 class="text-xl text-full-gray pb-6">12 Reviews</h4>
+      <p class="text-2xl font-normal">$45</p>
+            
+</div>
+
+  </div>
+    <!--item-->
+    <div class="p-10 border-t  border-r border-solid border-gray-300">
+      <div class="img-area relative text-right">
+        <img class="w-full block h-auto" src="./img/Customers- brought/image 7.png" alt="">
+        <div class="img-text bg-gradient-to-t from-[#EFF1F0] to-[#EFF1F0] absolute bottom-0 left-0 right-0 overflow-hidden w-full h-0 transition-all duration-500">
+          
+        </div>
+      </div>
+     
+      
+      <!--contant-->
+      <div class=" text-center text-black font-normal text-[25px] mt-8">
+   
+        <h3 class="mb-1 font-semibold">Love Corn</h3>
+         <!--star-->
+      <div class="rating py-2">
+       
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FCCF32]
+        " />
+        
+      </div>
+        <h4 class="text-xl text-full-gray pb-6">6 Reviews</h4>
+        <p class="text-2xl font-normal">$56</p>
+              
+  </div>
+  
+    </div>
+
+      <!--item-->
+  <div class="p-10 border-t border-solid border-gray-300">
+    <div class="img-area relative text-right">
+      <img class="w-full block h-auto" src="./img/Customers- brought/image 8.png" alt="">
+      <div class="img-text bg-gradient-to-t from-[#EFF1F0] to-[#EFF1F0] absolute bottom-0 left-0 right-0 overflow-hidden w-full h-0 transition-all duration-500">
+        
+      </div>
+    </div>
+   
+    
+    <!--contant-->
+    <div class=" text-center text-black font-normal text-[25px] mt-8">
+   
+      <h3 class="mb-1 font-semibold">Perfume Bottle</h3>
+       <!--star-->
+       <div class="rating py-2">
+       
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FCCF32]
+        " />
+        
+      </div>
+      <h4 class="text-xl text-full-gray pb-6">8 Reviews</h4>
+      <p class="text-2xl font-normal">$86</p>
+            
+</div>
+
+  </div>
+  
+  </div>
+  
+  </section>
+
+
+  <!---New Product-grid-->
+  <section class="2xl:px-40 px-20 2xl:py-40 py-10">
+    <div class="flex-row lg:flex mb-10 lg:mb-0 justify-between">
+      <h1 class="font-semibold text-[40px] text-black xl:mb-14 mb-8">New Products</h1>
+      
+    </div>
+    
+    <!--products-itmes-->
+    <div class="grid lg:grid-cols-3 grid-cols-1  gap-y-20 gap-x-10">
+    <!--item-->
+    <div class="">
+      <div class="img-area relative text-right">
+        <img class="w-full block h-auto" src="./img/Best-selling-products/Rectangle 32.png" alt="">
+      
+      </div>
+     
+      
+      <!--contant-->
+      <div class=" text-left text-black font-normal text-[25px] mt-8">
+     
+        <h3 class="mb-1">White bag</h3>
+        <h4 class="text-xl text-full-gray">White and blue</h4>
+         <!--star-->
+      <div class="rating py-4 flaex items-center">
+       
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FCCF32]
+        " />
+        <span class="ml-4">(34)</span>
+      </div>
+      <p class="text-2xl font-normal">$245</p>
+        <p class="w-full text-center mt-6  font-normal bg-anotherBlack text-white py-4">Add to cart</p>
+
+      
+  </div>
+    </div>
+    
+    <!--item-->
+    <div class="">
+      <div class="img-area relative text-right">
+        <img class="w-full block h-auto" src="./img/Best-selling-products/Rectangle 33.png" alt="">
+        
+        <p class="absolute text-xl text-white font-normal right-6 top-6 w-16 h-16 bg-[#78A366] leading-[65px] text-center rounded-[50%]">Sale!</p>
+      </div>
+     
+      
+      <!--contant-->
+      <div class=" text-left text-black font-normal text-[25px] mt-8">
+     
+        <h3 class="mb-1">Merun bag</h3>
+        <h4 class="text-xl text-full-gray">White and blue</h4>
+        <p class="text-2xl font-normal py-5 pb-12">$45</p>
+        <p class="w-full text-center mt-6 text-white font-medium bg-anotherBlack py-4">Add to cart</p>
+      
+  </div>
+    </div>
+    
+    <!--item-->
+    <div class="">
+      <div class="img-area relative text-right">
+        <img class="w-full block h-auto" src="./img/Best-selling-products/Rectangle 32.png" alt="">
+      
+      </div>
+     
+      
+      <!--contant-->
+      <div class=" text-left text-black font-normal text-[25px] mt-8">
+     
+        <h3 class="mb-1">White bag</h3>
+        <h4 class="text-xl text-full-gray">White and blue</h4>
+         <!--star-->
+      <div class="rating py-4 flaex items-center">
+       
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" checked/>
+        <input type="radio" name="rating-2" class="mask mr-2 mask-star-2 bg-[#FCCF32]" />
+        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#FCCF32]
+        " />
+        <span class="ml-4">(7)</span>
+      </div>
+      <p class="text-2xl font-normal">$245</p>
+        <p class="w-full text-center mt-6  font-normal bg-anotherBlack text-white py-4">Add to cart</p>
+
+      
+  </div>
+    </div>
+    
+    </div>
+    
+    </section>
+
+  
+
+
 
     <!------
    JAVASCRIPT-LINK
     ----->
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
  <script src="../js/script.js"></script>
 </body>
 </html>        

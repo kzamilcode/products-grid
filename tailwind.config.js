@@ -25,7 +25,14 @@ module.exports = {
         'Product' :'#E0C0A7',
         'blue': '#0316BD',
         'creaam-new' : '#999999',
-        'nGray': '#767676'
+        'nGray': '#767676',
+        'light-gray':'#A4A4A4',
+        'nRed' : '#FA7070',
+        'one' : '#834F04',
+        'two' : '#6794BB',
+        'three' :'#AABED0',
+        'full-gray':'#838383',
+        'anotherBlack': '#222222'
 
 
        
