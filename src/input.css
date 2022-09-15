@@ -19,3 +19,38 @@
   height: 40%;
   opacity: 0.9;
 }
+
+
+
+
+[id='toggle-heart']:checked + label,
+[id='toggle-heart2']:checked + label,
+[id='toggle-heart3']:checked + label,
+[id='toggle-heart4']:checked + label,
+[id='toggle-heart5']:checked + label,
+[id='toggle-heart6']:checked + label,
+[id='toggle-heart-other-1']:checked + label,
+[id='toggle-heart-other-2']:checked + label,
+[id='toggle-heart-other-3']:checked + label
+
+{
+  color: #e2264d;
+}
+
+/****/
+
+
+
+/* input[type='color']{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 2;
+} */
+
+.bg,
+.bgone,
+.bgthree{
+	
+	mix-blend-mode: hue;
+}

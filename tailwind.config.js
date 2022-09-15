@@ -32,7 +32,9 @@ module.exports = {
         'two' : '#6794BB',
         'three' :'#AABED0',
         'full-gray':'#838383',
-        'anotherBlack': '#222222'
+        'anotherBlack': '#222222',
+        'lightGreen' : '#7FBC3B',
+        'nlightgray' : '#999999'
 
 
        
