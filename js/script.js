@@ -35,3 +35,7 @@ colorthree.addEventListener('input', ()=>{
   let colValue = colorthree.value;
   bgthree.style.background = colValue;
 });
+
+
+
+/**** */
