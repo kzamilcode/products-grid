@@ -58,12 +58,7 @@
 
 
 
-/* .bg,
-.bgone,
-.bgthree{
-	
-	mix-blend-mode: hue;
-} */
+
 
 /****/
 
@@ -81,21 +76,9 @@
   
    
 
-    /***/
+ 
 
-  .antu:after {
-    content: "";
-    height: 1px;
-    height: 0;
-    border-left: 22px solid #FBD03B;
-    border-right: 22px solid #FBD03B;
-    border-bottom: 18px solid transparent;
-    left: -30px;
-    position: absolute;
-    transform: rotate(90deg);
-    top: 13px;
-}
-  
+
    
     
     
