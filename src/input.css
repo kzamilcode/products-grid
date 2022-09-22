@@ -17,9 +17,25 @@
   border: 1px solid #A7B8F3 !important;
 }
 .newtwo.active::after{
-  border:1px solid #E459C6 !important
+  border:1px solid #E459C6 !important;
 }
 
+.Twonewone.active::after{
+  border:1px solid #343434 !important;
+}
+.Twonew.active::after{
+  border:1px solid #E29D34 !important;
+}
+.Twonewtwo.active::after{
+  border:1px solid #5AD299!important;
+}
+
+.Twonew_a.active::after{
+  border:1px solid #9559D0!important;
+}
+.Twonewone_b.active::after{
+  border:1px solid #369ED9!important;
+} 
 .new.active::after {
   position: absolute;
   content: "";
