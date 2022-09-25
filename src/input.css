@@ -49,10 +49,13 @@
 
 .img-area:hover .img-text{
   height: 40%;
-  opacity: 0.9;
+
 }
 
-
+.any:hover .img-text{
+  height: 55%;
+  
+}
 
 
 [id='toggle-heart']:checked + label,
@@ -98,9 +101,23 @@
  
 
 
+   /****/
+   #wrapper {
+    width: 100%;
    
-    
-    
+    position: relative;
+  }
   
-   
+  #carousel {
+    overflow: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
   
+  #carousel::-webkit-scrollbar {
+    height: 0;
+  }
+  
+  
+  
+ 

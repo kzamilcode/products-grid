@@ -38,7 +38,7 @@ colorthree.addEventListener('input', ()=>{
 
 
 
-/**** */
+/**slider-1** */
 var isAnimating = false;
 
         function scrollLeftAnimate(elem, unit) {
@@ -102,6 +102,10 @@ var isAnimating = false;
 
 
 
+
+
+
+
         /**** */
 
         let tabsContainer = document.querySelector("#tabs");
@@ -136,58 +140,36 @@ var isAnimating = false;
 
 
  
- // set the default active slide to the first one
- let slideIndex = 1;
- showSlide(slideIndex);
+const gap = 16;
 
- // change slide with the prev/next button
- function moveSlide(moveStep) {
-     showSlide(slideIndex += moveStep);
- }
+const carousel = document.getElementById("carousel"),
+  content = document.getElementById("content"),
+  next = document.getElementById("next"),
+  prev = document.getElementById("prev");
 
- // change slide with the dots
- function currentSlide(n) {
-     showSlide(slideIndex = n);
- }
+next.addEventListener("click", e => {
+  carousel.scrollBy(width + gap, 0);
+  if (carousel.scrollWidth !== 0) {
+    prev.style.display = "flex";
+  }
+  if (content.scrollWidth - width - gap <= carousel.scrollLeft + width) {
+    next.style.display = "";
+  }
+});
+prev.addEventListener("click", e => {
+  carousel.scrollBy(-(width + gap), 0);
+  if (carousel.scrollLeft - width - gap <= 0) {
+    prev.style.display = "block";
+  }
+  if (!content.scrollWidth - width - gap <= carousel.scrollLeft + width) {
+    next.style.display = "flex";
+  }
+});
 
- function showSlide(n) {
-     let i;
-     const slides = document.getElementsByClassName("slide");
-     const dots = document.getElementsByClassName('dot');
-     
-     if (n > slides.length) { slideIndex = 1 }
-     if (n < 1) { slideIndex = slides.length }
-
-     // hide all slides
-     for (i = 0; i < slides.length; i++) {
-         slides[i].classList.add('hidden');
-     }
-
-     // remove active status from all dots
-     for (i = 0; i < dots.length; i++) {
-         dots[i].classList.remove('bg-gray-500');
-         dots[i].classList.add('bg-white');
-     }
-
-     // show the active slide
-     slides[slideIndex - 1].classList.remove('hidden');
-
-     // highlight the active dot
-     dots[slideIndex - 1].classList.remove('bg-white');
-     dots[slideIndex - 1].classList.add('bg-gray-500');
- }
-
-
- /**** */
+let width = carousel.offsetWidth;
+window.addEventListener("resize", e => (width = carousel.offsetWidth));
 
  
-  function zoomin() {
-      var GFG = document.getElementById("geeks");
-      var currHeight = GFG.clientHeight;
-          GFG.style.height = (currHeight + 40) + "px";
-  }
-  function zoomout() {
-      var GFG = document.getElementById("geeks");
-      var currHeight = GFG.clientHeight;
-          GFG.style.height = (currHeight - 40) + "px";
-  }
+ 
+/****inner */
+
