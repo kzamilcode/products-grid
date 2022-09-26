@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 
-
  span.active + i {
   position: absolute;
   top: 0;
@@ -75,9 +74,7 @@
 /****/
 
 
-.orenge,.yellow{
-  color:#FCCF32;
-}
+
 
 
 
@@ -86,7 +83,8 @@
 
 
       .va-carrousel::-webkit-scrollbar,
-      .va-carrousel-flexbox::-webkit-scrollbar {
+      .va-carrousel-flexbox::-webkit-scrollbar,
+      #carousel::-webkit-scrollbar  {
           display: none;
       }
   
@@ -102,21 +100,20 @@
 
 
    /****/
-   #wrapper {
+   /* #wrapper {
     width: 100%;
    
     position: relative;
-  }
+  } */
   
-  #carousel {
-    overflow: auto;
-    scroll-behavior: smooth;
+  /* #carousel {
+   
     scrollbar-width: none;
   }
-  
-  #carousel::-webkit-scrollbar {
+   */
+  /* #carousel::-webkit-scrollbar {
     height: 0;
-  }
+  } */
   
   
   
