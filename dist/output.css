@@ -678,6 +678,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   right: -18px;
 }
 
+.top-\[200px\] {
+  top: 200px;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -920,6 +924,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 383px;
 }
 
+.w-\[520px\] {
+  width: 520px;
+}
+
+.w-\[480px\] {
+  width: 480px;
+}
+
+.w-\[365px\] {
+  width: 365px;
+}
+
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -1008,6 +1024,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .gap-y-16 {
@@ -2191,6 +2215,10 @@ span.active + i {
     height: 250px;
   }
 
+  .md\:h-full {
+    height: 100%;
+  }
+
   .md\:w-\[250px\] {
     width: 250px;
   }
@@ -2260,6 +2288,22 @@ span.active + i {
 
   .lg\:-right-16 {
     right: -4rem;
+  }
+
+  .lg\:-top-\[190px\] {
+    top: -190px;
+  }
+
+  .lg\:-top-\[240px\] {
+    top: -240px;
+  }
+
+  .lg\:-top-\[200px\] {
+    top: -200px;
+  }
+
+  .lg\:top-\[545px\] {
+    top: 545px;
   }
 
   .lg\:mb-0 {
@@ -2348,6 +2392,10 @@ span.active + i {
 }
 
 @media (min-width: 1280px) {
+  .xl\:-top-\[240px\] {
+    top: -240px;
+  }
+
   .xl\:mb-14 {
     margin-bottom: 3.5rem;
   }
@@ -2430,6 +2478,10 @@ span.active + i {
     right: 30px;
   }
 
+  .\32xl\:-top-\[240px\] {
+    top: -240px;
+  }
+
   .\32xl\:mt-6 {
     margin-top: 1.5rem;
   }
@@ -2506,12 +2558,28 @@ span.active + i {
     width: 508px;
   }
 
+  .\32xl\:w-\[520px\] {
+    width: 520px;
+  }
+
   .\32xl\:flex-\[0_0_505px\] {
     flex: 0 0 505px;
   }
 
+  .\32xl\:flex-\[0_0_525px\] {
+    flex: 0 0 525px;
+  }
+
+  .\32xl\:flex-\[0_0_520px\] {
+    flex: 0 0 520px;
+  }
+
   .\32xl\:gap-\[20px\] {
     gap: 20px;
+  }
+
+  .\32xl\:gap-0 {
+    gap: 0px;
   }
 
   .\32xl\:gap-y-10 {
